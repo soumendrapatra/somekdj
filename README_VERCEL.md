@@ -8,7 +8,10 @@ Deploying to Vercel
 
 4. After deployment, Vercel will provide a permanent URL you can share.
 
+5. If the main page looks unstyled, open `check-assets.html` first. It confirms whether `style.css` and `script.js` are reachable from the repo root.
+
 Notes:
 - No server code is required; this is a static site.
 - Make sure video filenames are preserved exactly as `reply-me-love.mp4` and `love-me.mp4`.
 - If Vercel still fails, make sure the repository root contains `index.html`, `style.css`, `script.js`, and the two `.mp4` files directly.
+- If Vercel still fails, make sure the repository root contains `index.html`, `style.css`, `script.js`, `check-assets.html`, and the two `.mp4` files directly.

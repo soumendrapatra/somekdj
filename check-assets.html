@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asset Check</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div style="padding: 24px; font-family: sans-serif;">
+    <h1>Asset check</h1>
+    <p>If this page is styled, the CSS link works.</p>
+    <p id="js-status">Checking script...</p>
+  </div>
+  <script src="./script.js"></script>
+  <script>
+    document.getElementById('js-status').textContent = 'Script loaded successfully.';
+  </script>
+</body>
+</html>
